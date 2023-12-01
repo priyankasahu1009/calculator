@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Roboto+Condensed&family=Saira+Condensed:wght@200&family=Teko:wght@300&display=swap');
+
+html,body{
+    height:100%;
+    width:100%;
+    font-family:'Roboto Condensed', sans-serif;
+    /* background: url('https://i.pinimg.com/564x/2c/4a/51/2c4a51890366e789fb90f22239dbc664.jpg'); */
+    /* object-fit: cover; */
+    /* background-image: url('https://i.pinimg.com/564x/2c/4a/51/2c4a51890366e789fb90f22239dbc664.jpg');
+    background-position: center; */
+
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background: url('https://i.pinimg.com/564x/2c/4a/51/2c4a51890366e789fb90f22239dbc664.jpg');
+    object-fit: cover;
+    background-position: center;
+   
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.box{
+    border: 2px solid rgb(20, 27, 105);
+}
+.button{
+    width:66px;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: large;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+}
+.button:hover{
+    background-color: burlywood;
+}
+.button#clear{
+    /* background-color: black; */
+    background-color: white;
+    color: black;
+}
+.button#equal{
+    background-color: white;
+    color: black; 
+}
+.row.color{
+    background-color: rgb(192, 20, 77);
+}
+.row{
+    margin: 8px 0;
+}
+.row input{
+    text-align: right;
+    font-size: 23px;
+    margin: 0;
+    padding: 15px 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: antiquewhite ;
+}
